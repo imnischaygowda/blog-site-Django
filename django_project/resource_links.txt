@@ -1,0 +1,5 @@
+
+
+
+# Serving files uploaded by a user during development - Media file root.
+https://docs.djangoproject.com/en/2.1/howto/static-files/#serving-files-uploaded-by-a-user-during-development
