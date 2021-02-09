@@ -1,3 +1,3 @@
 # blog-site-Django
 
-Blog webiste built from scratch - WIP
+Blog webiste built from scratch - work in progress
