@@ -4,12 +4,15 @@ from .views import (
     PostDetailView, 
     PostCreateView, 
     PostUpdateView,
-    PostDeleteView
+    PostDeleteView,
+    UserPostListView
 )
 from .import views
 
 urlpatterns = [
     path('', PostListView.as_view(), name='blog-home'),
+    # to display individual user posts.
+    path('user/<str:username>/', UserPostListView.as_view(), name='user-posts'),
     # to view each post in details --->  "./post_variable".
     path('post/<int:pk>/', PostDetailView.as_view(), name='post-detail'),
     path('post/new/', PostCreateView.as_view(), name='post-create'),
