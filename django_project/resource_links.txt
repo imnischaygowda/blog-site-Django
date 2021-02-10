@@ -3,3 +3,7 @@
 
 # Serving files uploaded by a user during development - Media file root.
 https://docs.djangoproject.com/en/2.1/howto/static-files/#serving-files-uploaded-by-a-user-during-development
+
+
+# sign in App using gmail setup
+https://support.google.com/mail/answer/185833?hl=en
